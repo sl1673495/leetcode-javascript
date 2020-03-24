@@ -10,9 +10,10 @@ const getData = () =>
 // 这样的一个async函数 应该再1秒后打印data
 async function test() {
   const data = await getData()
-  
-  console.log(data)
-  return data
+  console.log('data: ', data);
+  const data2 = await getData()
+  console.log('data2: ', data2);
+  return 'success'
 }
 
 // async函数会被编译成generator函数 (babel会编译成更本质的形态，这里我们直接用generator)
@@ -22,7 +23,7 @@ function* testG() {
   console.log('data: ', data);
   const data2 = yield getData()
   console.log('data2: ', data2);
-  return data + '123'
+  return 'success'
 }
 
 function asyncToGenerator(generatorFunc) {
