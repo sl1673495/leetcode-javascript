@@ -56,3 +56,17 @@ var lengthOfLongestSubstring = function(str) {
   return max
 }
 console.log(lengthOfLongestSubstring("abcabcbb"))
+
+/**
+ * 参考
+ *  什么是「滑动窗口算法」（sliding window algorithm），有哪些应用场景？ - 程序员吴师兄的回答 - 知乎
+    https://www.zhihu.com/question/314669016/answer/663930108
+
+   注意边界情况很坑，比如'pwwkew'这种，在i = 2遇到第二个w的时候，窗口中的文字是pw，
+   
+   要把左边界移动到第一个w的右边一位，也就是[2, 2]再继续开始匹配，此时会从第二个w继续向右滑动。
+
+   再比如'abcdbacd'这种，在i = 4遇到第二个b的时候，窗口中是[a, b, c, d]，此时也不能只单纯向后移动一位，而是需要后移到第一个b的右边
+
+   也就是[2, 4]再开始匹配， 也就是从[c, d, b] 再继续往后查找最大的子串。
+ */
