@@ -42,6 +42,7 @@ var removeElement = function (nums, val) {
 
     i++;
   }
+
   return j;
 };
 
