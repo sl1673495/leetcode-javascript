@@ -1,3 +1,5 @@
+// https://github.com/sl1673495/daily-plan/issues/16
+
 var solve = function (board) {
   if (board.length == 0) return null;
 
