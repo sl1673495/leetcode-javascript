@@ -5,7 +5,7 @@ const coinChange = (coins, targetAmount) => {
   // 设置初始条件为0 这一项无法用公式推导出来
   dp[0] = 0;
 
-  for (let amount = 0; amount <= targetAmount; amount++) {
+  for (let amount = 1; amount <= targetAmount; amount++) {
     for (let j = 0; j < coins.length; j++) {
       let coin = coins[j];
       if (coin <= amount) {
