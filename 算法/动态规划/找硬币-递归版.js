@@ -29,4 +29,4 @@ function f(n) {
   return min;
 }
 
-console.log(f(15)); // 3
+console.log(f(50)); // 3

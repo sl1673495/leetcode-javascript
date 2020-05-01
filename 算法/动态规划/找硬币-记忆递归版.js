@@ -25,4 +25,4 @@ function f(n) {
   return makeChange(n)
 }
 
-console.log(f(705))
+console.log(f(5000))
