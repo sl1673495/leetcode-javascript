@@ -1,6 +1,6 @@
-# frontend-code-fragment
+# leetcode-javascript
 
-前端代码片段，想到什么写什么。
+力扣的一些解题记录和思路（issue）。
 
 ## 算法
 
