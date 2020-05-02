@@ -1,3 +1,7 @@
+/**
+ * 二分搜索 从一个数组中搜索一个确定的数
+ */
+
 function binarySearch(arr, n, target) {
   // 在[l...r]的范围里寻找target
   let l = 0;
