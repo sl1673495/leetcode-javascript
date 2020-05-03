@@ -2,10 +2,10 @@
  * @param {number[]} nums
  * @return {number}
  */
-var sumFourDivisors = function(nums) {
-  var sum = 0
-  for (var i = 0; i < nums.length; i++) {
-      var divisorSet = findDivisor(nums[i])
+let sumFourDivisors = function(nums) {
+  let sum = 0
+  for (let i = 0; i < nums.length; i++) {
+      let divisorSet = findDivisor(nums[i])
       if (divisorSet.size === 4) {
           divisorSet.forEach(num => {
               sum += num
@@ -17,10 +17,10 @@ var sumFourDivisors = function(nums) {
 
 function findDivisor(num) {
   // 超过这个边界就不用继续求值了
-  var max = Math.floor(Math.sqrt(num))
-  var set = new Set()
-  for (var i = 1; i <= max; i ++) {
-      var result = num / i
+  let max = Math.floor(Math.sqrt(num))
+  let set = new Set()
+  for (let i = 1; i <= max; i ++) {
+      let result = num / i
       // 除数是整数
       if (result % 1 === 0) {
           set.add(result)

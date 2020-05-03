@@ -2,10 +2,10 @@
  * @param {TreeNode} root
  * @return {boolean}
  */
-var isUnivalTree = function(root) {
-    var values = []
+let isUnivalTree = function(root) {
+    let values = []
     dfs(root, values)
-    var first = values[0]
+    let first = values[0]
     return values.every(val => val === first)
 };
 
@@ -18,9 +18,9 @@ function dfs(node, values) {
 
 
 
-var TreeNode = require('./二叉树.js')
+let TreeNode = require('./二叉树.js')
 
-var treeNode = new TreeNode(1)
+let treeNode = new TreeNode(1)
 
 treeNode.left = new TreeNode(1)
 treeNode.right = new TreeNode(1)

@@ -4,7 +4,7 @@
  * @param {number[][]} grid
  * @return {number}
  */
-var maxAreaOfIsland = function (grid) {
+let maxAreaOfIsland = function (grid) {
   let yLen = grid.length;
   if (!yLen) return grid;
   let xLen = grid[0].length;

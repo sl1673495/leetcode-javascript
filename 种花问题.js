@@ -23,12 +23,12 @@
  * @param {number} n
  * @return {boolean}
  */
-var canPlaceFlowers = function(flowerbed, n) {
+let canPlaceFlowers = function(flowerbed, n) {
   // empty代表连续命中0的次数 命中3次就说明要回退一个种花
-  var empty = 1
-  var count = 0
-  for (var i = 0; i < flowerbed.length; i++) {
-    var has = flowerbed[i]
+  let empty = 1
+  let count = 0
+  for (let i = 0; i < flowerbed.length; i++) {
+    let has = flowerbed[i]
     if (!has) {
       empty++
       // 连续三次空白

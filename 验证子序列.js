@@ -10,12 +10,12 @@ s = "abc", t = "ahbgdc"
 返回 true.
 */
 
-// var isSubsequence = function(s, t) {
-//   var lastIndex = -1
-//   var sliced = t
-//   var slicedCount = 0
-//   for (var i = 0; i < s.length; i++) {
-//       var finded = sliced.indexOf(s[i])
+// let isSubsequence = function(s, t) {
+//   let lastIndex = -1
+//   let sliced = t
+//   let slicedCount = 0
+//   for (let i = 0; i < s.length; i++) {
+//       let finded = sliced.indexOf(s[i])
 //       if (finded + slicedCount > lastIndex) {
 //           lastIndex = finded + slicedCount
 //           sliced = sliced.substr(finded + 1)
@@ -29,7 +29,7 @@ s = "abc", t = "ahbgdc"
 // }
 
 // 这种是速度最快的 利用indexOf的第二个参数做起点
-var isSubsequence = function(s, t) {
+let isSubsequence = function(s, t) {
   let start=0
   for(let i=0; i < s.length; i++) {
       let index = t.indexOf(s[i], start)
@@ -39,6 +39,6 @@ var isSubsequence = function(s, t) {
   return true
 };
 
-var a = "leeeeetcode"
-var b = 'leeeeeeeeeeccccctcccoddddeeee'
+let a = "leeeeetcode"
+let b = 'leeeeeeeeeeccccctcccoddddeeee'
 console.log(isSubsequence(a, b))

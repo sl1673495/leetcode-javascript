@@ -33,7 +33,7 @@ function genKey(i, j) {
   return `${i}-${j}`;
 }
 
-var solve = function (board) {
+let solve = function (board) {
   const notXMap = {};
   for (let i = 0; i < board.length; i++) {
     let row = board[i];

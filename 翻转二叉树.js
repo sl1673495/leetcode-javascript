@@ -27,8 +27,8 @@
  * @param {*} root
  * 遍历法，先循环找出所有需要翻转的treeNode，然后遍历翻转即可
  */
-var invertTree = function(root) {
-  var queue = [];
+let invertTree = function(root) {
+  let queue = [];
   function traverse(tree) {
     if (!tree) return;
     queue.push(tree);
@@ -38,8 +38,8 @@ var invertTree = function(root) {
   traverse(root);
 
   while (queue.length) {
-    var node = queue.pop();
-    var temp = node.right;
+    let node = queue.pop();
+    let temp = node.right;
     node.right = node.left;
     node.left = temp;
   }

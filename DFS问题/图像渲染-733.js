@@ -5,7 +5,7 @@
  * @param {number} newColor
  * @return {number[][]}
  */
-var floodFill = function (image, sr, sc, newColor) {
+let floodFill = function (image, sr, sc, newColor) {
   let current = image[sr][sc];
   dfs(image, sr, sc, current, newColor);
   return image;

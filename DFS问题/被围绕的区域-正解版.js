@@ -1,18 +1,18 @@
 // https://github.com/sl1673495/daily-plan/issues/16
 
-var solve = function (board) {
+let solve = function (board) {
   if (board.length == 0) return null;
 
-  for (var y = 0; y < board.length; y++) {
-    for (var x = 0; x < board[0].length; x++) {
+  for (let y = 0; y < board.length; y++) {
+    for (let x = 0; x < board[0].length; x++) {
       if (board[y][x] == "O" && (y == 0 || y == board.length - 1 || x == 0 || x == board[0].length - 1)) {
         dfs(board, y, x);
       }
     }
   }
 
-  for (var y = 0; y < board.length; y++) {
-    for (var x = 0; x < board[0].length; x++) {
+  for (let y = 0; y < board.length; y++) {
+    for (let x = 0; x < board[0].length; x++) {
       if (board[y][x] == "W") {
         board[y][x] = "O";
       } else {

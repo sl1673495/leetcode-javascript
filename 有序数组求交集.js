@@ -1,33 +1,33 @@
-var a = []
+let a = []
 
 for (let index = 0; index < 500; index++) {
   a.push(i)
 }
 
-for (var i = 16; i < 10000; i++) {
+for (let i = 16; i < 10000; i++) {
   a.push(i)
 }
 
-var b = []
+let b = []
 
 for (let index = 0; index < 500; index++) {
   b.push(i)
 }
 
-for (var i = 10001; i < 50000; i++) {
+for (let i = 10001; i < 50000; i++) {
   b.push(i)
 }
 
 function mapIntersection(arr1, arr2) {
   console.time()
-  var map = new Map()
-  for (var i = 0; i < arr1.length; i++) {
+  let map = new Map()
+  for (let i = 0; i < arr1.length; i++) {
     map.set(arr1[i], true)
   }
 
-  var result = []
-  for (var i = 0; i < arr2.length; i++) {
-    var val = arr2[i]
+  let result = []
+  for (let i = 0; i < arr2.length; i++) {
+    let val = arr2[i]
     if (map.get(val)) {
       result.push(val)
     }

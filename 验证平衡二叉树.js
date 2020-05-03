@@ -1,9 +1,9 @@
-var isValidBST = function(root) {
+let isValidBST = function(root) {
   function helper(node, lower, upper) {
     // 遇到空节点 直接返回true
     if (!node) return true
 
-    var val = node.val
+    let val = node.val
     // 如果当前的值比下边界还小 就失败
     if (lower !== null && val <= lower) return false
     // 如果当前的值比上边界还大 就失败

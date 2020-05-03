@@ -1,21 +1,21 @@
 function mergeSort(arr) {
-  var l = arr.length;
+  let l = arr.length;
   if (l === 1) return arr;
-  var m = Math.round(l / 2);
-  var left = arr.slice(0, m);
-  var right = arr.slice(m);
+  let m = Math.round(l / 2);
+  let left = arr.slice(0, m);
+  let right = arr.slice(m);
   return merge(mergeSort(left), mergeSort(right));
 }
 
 function merge(arr1, arr2) {
-  var l1 = arr1.length;
-  var l2 = arr2.length;
-  var i1 = 0;
-  var i2 = 0;
-  var r = [];
+  let l1 = arr1.length;
+  let l2 = arr2.length;
+  let i1 = 0;
+  let i2 = 0;
+  let r = [];
   while (i1 < l1 && i2 < l2) {
-    var item1 = arr1[i1];
-    var item2 = arr2[i2];
+    let item1 = arr1[i1];
+    let item2 = arr2[i2];
     if (item1 < item2) {
       r.push(item1);
       i1++;

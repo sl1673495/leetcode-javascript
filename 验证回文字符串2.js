@@ -2,9 +2,9 @@
  * @param {string} s
  * @return {boolean}
  */
-var validPalindrome = function(s) {
-  var i = 0;
-  var j = s.length - 1
+let validPalindrome = function(s) {
+  let i = 0;
+  let j = s.length - 1
   
   // 两个指针往中间缩进
   while (i < j && s[i] === s[j]) {

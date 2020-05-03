@@ -2,11 +2,11 @@
  * @param {string[]} strs
  * @return {string}
  */
-var longestCommonPrefix = function (strs) {
-  var point = 0
-  var common = ""
-  var shortestStr
-  var getShortestStr = false
+let longestCommonPrefix = function (strs) {
+  let point = 0
+  let common = ""
+  let shortestStr
+  let getShortestStr = false
 
   if (strs.length === 1) {
       return strs[0]
@@ -16,8 +16,8 @@ var longestCommonPrefix = function (strs) {
   }
 
   while (1) {
-      for (var i = 0; i < strs.length; i++) {
-          var str = strs[i]
+      for (let i = 0; i < strs.length; i++) {
+          let str = strs[i]
           if (i > 0 && str[point] !== strs[i - 1][point]) {
               return common
           }

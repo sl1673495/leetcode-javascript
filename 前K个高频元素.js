@@ -17,20 +17,20 @@
   你的算法的时间复杂度必须优于 O(n log n) , n 是数组的大小。
  */
 
-var topKFrequent = function(nums, k) {
-  var map = new Map()
-  for (var i = 0; i < nums.length; i++) {
-    var num = nums[i]
-    var count = map.get(num)
+let topKFrequent = function(nums, k) {
+  let map = new Map()
+  for (let i = 0; i < nums.length; i++) {
+    let num = nums[i]
+    let count = map.get(num)
     if (!count) {
       map.set(num, 1)
     } else {
       map.set(num, count + 1)
     }
   }
-  var sorted = Array.from(map.entries()).sort((a, b) => b[1] - a[1])
-  var result = []
-  for (var i = 0; i < k; i++) {
+  let sorted = Array.from(map.entries()).sort((a, b) => b[1] - a[1])
+  let result = []
+  for (let i = 0; i < k; i++) {
     result.push(sorted[i][0])
   }
   return result

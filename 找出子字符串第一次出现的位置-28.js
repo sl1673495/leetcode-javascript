@@ -3,13 +3,13 @@
  * @param {string} needle
  * @return {number}
  */
-var strStr = function(haystack, needle) {
+let strStr = function(haystack, needle) {
   if (needle === '') return 0
 
-  var start
-  for (var i = 0; i < haystack.length - needle.length + 1; i++) {
-      for (var j = 0; j < needle.length; j++) {
-          var hIndex = i + j
+  let start
+  for (let i = 0; i < haystack.length - needle.length + 1; i++) {
+      for (let j = 0; j < needle.length; j++) {
+          let hIndex = i + j
           if (hIndex > haystack.length) {
             return -1
           }

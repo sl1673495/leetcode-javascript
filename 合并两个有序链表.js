@@ -3,11 +3,11 @@ function ListNode(val) {
   this.next = null
 }
 
-var node1 = new ListNode(1)
+let node1 = new ListNode(1)
 node1.next = new ListNode(2)
 node1.next.next = new ListNode(4)
 
-var node2 = new ListNode(1)
+let node2 = new ListNode(1)
 node2.next = new ListNode(3)
 node2.next.next = new ListNode(4)
 /**
@@ -15,17 +15,17 @@ node2.next.next = new ListNode(4)
  * @param {ListNode} l2
  * @return {ListNode}
  */
-var mergeTwoLists = function(l1, l2) {
-  var arr = []
+let mergeTwoLists = function(l1, l2) {
+  let arr = []
   if (!l1 && !l2) {
     return null
   }
   while (l1 || l2) {
-    var runL1 = () => {
+    let runL1 = () => {
       arr.push(l1.val)
       l1 = l1.next
     }
-    var runL2 = () => {
+    let runL2 = () => {
       arr.push(l2.val)
       l2 = l2.next
     }

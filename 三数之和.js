@@ -2,9 +2,9 @@
  * @param {number[]} nums
  * @return {number[][]}
  */
-var twoSum = function(nums, target) {
+let twoSum = function(nums, target) {
   let map = new Map()
-  var results = []
+  let results = []
   for (let i = 0; i < nums.length; i++) {
     let num = nums[i]
     let result = map.get(target - num)
@@ -16,11 +16,11 @@ var twoSum = function(nums, target) {
   return results
 }
 
-var threeSum = function(nums) {
+let threeSum = function(nums) {
   nums.sort((a, b) => a - b)
-  var set = new Set()
-  var results = []
-  for (var i = 0; i < nums.length - 2; i++) {
+  let set = new Set()
+  let results = []
+  for (let i = 0; i < nums.length - 2; i++) {
     let find = twoSum(nums.slice(i + 1), -nums[i])
     if (find) {
       find.forEach((arr) => {

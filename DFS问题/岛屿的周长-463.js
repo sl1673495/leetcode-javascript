@@ -3,7 +3,7 @@
  * @param {number[][]} grid
  * @return {number}
  */
-var islandPerimeter = function (grid) {
+let islandPerimeter = function (grid) {
   let yLen = grid.length;
   if (!yLen) return 0;
   let xLen = grid[0].length;

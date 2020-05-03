@@ -47,7 +47,7 @@ const merge = function(nums1, m, nums2, n) {
   }
 }
 
-var a = [1, 2, 10, 0, 0, 0]
+let a = [1, 2, 10, 0, 0, 0]
 merge(a, 3, [2, 5, 6, 7], 4)
 
 console.log(a)
@@ -116,7 +116,7 @@ const merge2 = function(nums1, m, nums2, n) {
   }
 };
 
-var a2= [1, 2, 0, 0, 0, 0]
+let a2= [1, 2, 0, 0, 0, 0]
 merge(a2, 2, [2, 5, 6], 4)
 
 console.log(a2)

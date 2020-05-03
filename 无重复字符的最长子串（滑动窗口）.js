@@ -23,22 +23,22 @@
     链接：https://leetcode-cn.com/problems/longest-substring-without-repeating-characters
     著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 */
-var lengthOfLongestSubstring = function(str) {
+let lengthOfLongestSubstring = function(str) {
   if (str.length === 1) {
     return 1
   }
   // 滑动窗口
-  var windows = [0, 0]
-  var max = 0
+  let windows = [0, 0]
+  let max = 0
 
-  for (var i = 0; i < str.length; i++) {
-    var char = str[i]
+  for (let i = 0; i < str.length; i++) {
+    let char = str[i]
 
     // 当前窗口中的文字
-    var windowsStr = str.substring(windows[0], windows[1])
+    let windowsStr = str.substring(windows[0], windows[1])
 
     // 窗口中如果已经出现了这个文字 就需要把窗口左侧移动到「上一次出现这个文字」的右边位置
-    var windowsCharIdx = windowsStr.indexOf(char)
+    let windowsCharIdx = windowsStr.indexOf(char)
     if (windowsCharIdx !== -1) {
       // 注意要加上窗口左侧已经移动的距离
       windows[0] += windowsCharIdx + 1
@@ -47,7 +47,7 @@ var lengthOfLongestSubstring = function(str) {
     // 右边界始终后移
     windows[1]++
 
-    var windowsLength = windows[1] - windows[0]
+    let windowsLength = windows[1] - windows[0]
     if (windowsLength > max) {
       max = windowsLength
     }

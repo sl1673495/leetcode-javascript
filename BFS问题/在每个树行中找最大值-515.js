@@ -29,7 +29,7 @@
  * @param {TreeNode} root
  * @return {number[]}
  */
-var largestValues = function (root) {
+let largestValues = function (root) {
   if (!root) return [];
   let queue = [root];
   let maximums = [];
@@ -69,7 +69,7 @@ function TreeNode(val) {
 }
 
 /** 预期：[1, 3, 9] */
-var root = new TreeNode(1);
+let root = new TreeNode(1);
 root.left = new TreeNode(3);
 root.right = new TreeNode(2);
 root.left.left = new TreeNode(5);
@@ -85,7 +85,7 @@ root.right.right = new TreeNode(9);
 
  */
 /** 预期：[5, 14, 1] */
-var root2 = new TreeNode(5);
+let root2 = new TreeNode(5);
 root2.left = new TreeNode(14);
 root2.left.left = new TreeNode(1);
 

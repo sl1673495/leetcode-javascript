@@ -2,7 +2,7 @@
  * @param {number} n
  * @return {number[]}
  */
-var grayCode = function(n) {
+let grayCode = function(n) {
   // 用来算输入为n的格雷编码序列
   let make = n => {
     if (n === 1) {
