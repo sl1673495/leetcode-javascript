@@ -40,4 +40,4 @@ let fib = function (N) {
 //   };
 // })();
 
-console.log(fib(10000));
+console.log(fib(100000));

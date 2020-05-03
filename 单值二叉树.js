@@ -18,7 +18,7 @@ function dfs(node, values) {
 
 
 
-let TreeNode = require('./二叉树.js')
+let TreeNode = require('./工具/二叉树.js')
 
 let treeNode = new TreeNode(1)
 
