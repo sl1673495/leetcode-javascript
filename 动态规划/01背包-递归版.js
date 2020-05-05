@@ -30,4 +30,4 @@ function bestValue(w, v, index, c) {
   return max;
 }
 
-console.log(knapsack01([1, 2, 3], [4, 5, 15], 3));
+console.log(knapsack01([1, 2, 3], [6, 10, 12], 5));
