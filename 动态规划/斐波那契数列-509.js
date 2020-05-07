@@ -3,17 +3,30 @@
  * @return {number}
  */
 let fib = function (N) {
-  let dp = []
-
-  dp[0] = 0n;
-  dp[1] = 1n;
+  let prev = 1n
+  let prevPrev = 1n
 
   for (let i = 2; i <= N; i++) {
-    dp[i] = dp[i - 1] + dp[i - 2];
+    let current = prev + prevPrev
+    prevPrev = prev
+    prev = current
   }
 
-  return dp[N];
+  return prev
 };
+
+// let fib = function (N) {
+//   let dp = []
+
+//   dp[0] = 0n;
+//   dp[1] = 1n;
+
+//   for (let i = 2; i <= N; i++) {
+//     dp[i] = dp[i - 1] + dp[i - 2];
+//   }
+
+//   return dp[N];
+// };
 
 // let fib = (function () {
 //   let memo = new Map();
