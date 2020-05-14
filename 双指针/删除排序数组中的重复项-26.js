@@ -16,7 +16,7 @@ let removeDuplicates = function (nums) {
     // 把慢指针的位置更新，并且赋值成新的值，继续等待下一个新值。
     if (fast !== slot) {
       j++;
-      nums[j] = num;
+      nums[j] = fast;
     }
     i++;
   }
