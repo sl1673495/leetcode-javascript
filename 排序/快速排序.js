@@ -34,11 +34,12 @@ function partition(arr, l, r) {
   // 取一个基准值 取第一项
   let v = arr[l];
 
-  // arr[l+1...j] < v; arr[j+1...i) > v
+  // arr[l+1...j] < v < arr[j+1...i) > v
   let j = l;
   for (let i = l + 1; i <= r; i++) {
     if (arr[i] < v) {
       // 如果当前值小于基准值的话，就交换到j + 1后的位置去。
+      // 扩充了j的范围 [j...], v, [...r]
       swap(arr, j + 1, i);
       j++;
     }
