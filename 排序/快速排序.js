@@ -5,7 +5,8 @@ const swap = require("../工具/交换");
  * @param {number[]} arr
  */
 function quickSort(arr) {
-  _quickSort(arr, 0, n - 1);
+  _quickSort(arr, 0, arr.length - 1);
+  return arr;
 }
 
 /**
@@ -19,8 +20,8 @@ function _quickSort(arr, l, r) {
     return;
   }
   let p = partition(arr, l, r);
-  __quickSort(arr, l, p - 1);
-  __quickSort(arr, p + 1, r);
+  _quickSort(arr, l, p - 1);
+  _quickSort(arr, p + 1, r);
 }
 
 /**
@@ -37,11 +38,17 @@ function partition(arr, l, r) {
   // arr[l+1...j] < v < arr[j+1...i) > v
   let j = l;
   for (let i = l + 1; i <= r; i++) {
-    if (arr[i] < v) {
+    let num = arr[i]
+    if (num < v) {
       // 如果当前值小于基准值的话，就交换到j + 1后的位置去。
       // 扩充了j的范围 [j...], v, [...r]
       swap(arr, j + 1, i);
       j++;
     }
   }
+
+  swap(arr, l, j);
+  return j
 }
+
+console.log(quickSort([1, 4, 2, 5, 3]));
