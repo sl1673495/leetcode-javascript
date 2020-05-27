@@ -33,7 +33,7 @@ function _quickSort(arr, l, r) {
  * @returns {number} 返回索引值p，使得arr[l...p-1] < arr[p] < arr[p+1...r]
  */
 function partition(arr, left, right) {
-  // 取一个基准值 取第一项
+  // 取一个基准值 取随机值
   let rand = random(left, right)
   swap(arr, left, rand)
   let pivot = arr[left]

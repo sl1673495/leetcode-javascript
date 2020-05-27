@@ -1,6 +1,7 @@
 const glob = require("glob")
 const path = require("path")
 const swap = require("./交换")
+const random = require("./随机值")
 
 function sortTest(sortFns, source, desc) {
   console.log(desc)
@@ -36,7 +37,6 @@ function getRandomArray(count) {
   for (let i = 0; i < count; i++) {
     arr.push(Math.floor(i * Math.random() * 10))
   }
-
   return arr
 }
 
@@ -52,6 +52,14 @@ function getNearlyArray(count, swapTime) {
     swap(arr, x, y)
   }
 
+  return arr
+}
+
+function getRangedArray(count, min, max) {
+  const arr = []
+  for (let i = 0; i < count; i++) {
+    arr.push(random(min, max))
+  }
   return arr
 }
 
@@ -71,5 +79,6 @@ glob("排序/*.js", (err, result) => {
     .map((p) => require(path.resolve(p)))
     .filter(Boolean)
   sortTest(sortFunctions, () => getRandomArray(10000), "普通数组排序")
-  sortTest(sortFunctions, () => getNearlyArray(50000), "近似数组排序")
+  sortTest(sortFunctions, () => getNearlyArray(10000), "近似数组排序")
+  sortTest(sortFunctions, () => getRangedArray(10000), "大量重复值元素排序")
 })
