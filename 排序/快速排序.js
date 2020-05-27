@@ -1,4 +1,5 @@
 const swap = require("../工具/交换")
+const random = require("../工具/随机值")
 
 /**
  *
@@ -33,6 +34,8 @@ function _quickSort(arr, l, r) {
  */
 function partition(arr, left, right) {
   // 取一个基准值 取第一项
+  let rand = random(left, right)
+  swap(arr, left, rand)
   let pivot = arr[left]
 
   // arr[left+1...index] < pivot, arr[index+1...i) > pivot

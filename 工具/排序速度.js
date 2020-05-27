@@ -71,4 +71,5 @@ glob("排序/*.js", (err, result) => {
     .map((p) => require(path.resolve(p)))
     .filter(Boolean)
   sortTest(sortFunctions, () => getRandomArray(10000), "普通数组排序")
+  sortTest(sortFunctions, () => getNearlyArray(50000), "近似数组排序")
 })
