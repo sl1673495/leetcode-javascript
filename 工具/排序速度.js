@@ -15,7 +15,14 @@ function sortTest(sortFns, source, desc) {
     const copy = source.slice()
     const start = new Date().getTime()
 
-    fn(copy)
+    try {
+      fn(copy)
+    } catch (e) {
+      return (table[fn.sortName] = {
+        结果: "程序异常",
+        原因: e.message,
+      })
+    }
 
     const end = new Date().getTime()
     const time = end - start
