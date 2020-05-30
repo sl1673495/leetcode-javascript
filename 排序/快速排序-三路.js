@@ -2,7 +2,9 @@ const swap = require("../工具/交换")
 const random = require("../工具/随机值")
 
 /**
- *
+ * 三路快速排序
+ * 将 arr[l...r] 分为 < v, === v, > v三部分
+ * 之后递归的对 < v, > v 两部分三路快排
  * @param {number[]} arr
  */
 function quickSort(arr) {
@@ -20,9 +22,9 @@ function _quickSort(arr, l, r) {
   if (l >= r) {
     return
   }
-  let p = partition(arr, l, r)
-  _quickSort(arr, l, p - 1)
-  _quickSort(arr, p + 1, r)
+  let [p, q] = partition(arr, l, r)
+  _quickSort(arr, l, p)
+  _quickSort(arr, q, r)
 }
 
 /**
@@ -38,22 +40,12 @@ function partition(arr, left, right) {
   swap(arr, left, rand)
   let pivot = arr[left]
 
-  // arr[left+1...index] < pivot, arr[index+1...i) > pivot
-  let index = left
-  for (let i = left + 1; i <= right; i++) {
-    let num = arr[i]
-    if (num < pivot) {
-      // 如果当前值小于基准值的话，就交换到index + 1的位置去。
-      // 扩充了index的范围 [index...], pivot, [...right]
-      swap(arr, index + 1, i)
-      index++
-    }
-  }
-
-  swap(arr, left, index)
-  return index
+  // 三路 注意看注释里的区间
+  let lt = left // arr[left + 1...lt] < v
+  let gt = right + 1 // arr[gt...r] > v
+  let index = left + 1 // arr[lt + 1...index] === v
 }
 
-quickSort.sortName = "快速排序"
+quickSort.sortName = "快速排序（三路）"
 
 module.exports = quickSort
