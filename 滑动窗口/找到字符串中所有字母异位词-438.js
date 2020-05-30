@@ -4,46 +4,56 @@
  * @return {number[]}
  */
 let findAnagrams = function (s, p) {
+  let targetMap = makeCountMap(p)
   let sl = s.length
   let pl = p.length
-  let last = sl - pl + 1
-
+  // [left,...right] 滑动窗口
+  let left = 0
+  let right = pl - 1
+  let windowMap = makeCountMap(s.substring(left, right + 1))
   let res = []
-  for (let i = 0; i < last; i++) {
-    if (isAnagrams(s, p, i)) {
-      res.push(i)
+
+  while (left <= sl - pl && right < sl) {
+    if (isAnagrams(windowMap, targetMap)) {
+      res.push(left)
     }
+    windowMap[s[left]]--
+    right++
+    left++
+    addCountToMap(windowMap, s[right])
   }
 
   return res
 }
 
-let isAnagrams = function (s, p, start) {
-  let pl = p.length
-  let end = start + pl
-
-  let sub = s.substring(start, end)
-  let subMap = {}
-  let pMap = {}
-
-  countStr(sub, subMap)
-  countStr(p, pMap)
-
-  let subKeys = Object.keys(subMap)
-  for (let subKey of subKeys) {
-    if (!pMap[subKey] || subMap[subKey] !== pMap[subKey]) {
+let isAnagrams = function (windowMap, targetMap) {
+  let targetKeys = Object.keys(targetMap)
+  for (let targetKey of targetKeys) {
+    if (
+      !windowMap[targetKey] ||
+      windowMap[targetKey] !== targetMap[targetKey]
+    ) {
       return false
     }
   }
   return true
+}
 
-  function countStr(str, map) {
-    for (let i = 0; i < str.length; i++) {
-      if (!map[str[i]]) {
-        map[str[i]] = 1
-      } else {
-        map[str[i]]++
-      }
-    }
+function addCountToMap(map, str) {
+  if (!map[str]) {
+    map[str] = 1
+  } else {
+    map[str]++
   }
 }
+
+function makeCountMap(strs) {
+  let map = {}
+  for (let i = 0; i < strs.length; i++) {
+    let letter = strs[i]
+    addCountToMap(map, letter)
+  }
+  return map
+}
+
+console.log(findAnagrams("abab", "ab"))
