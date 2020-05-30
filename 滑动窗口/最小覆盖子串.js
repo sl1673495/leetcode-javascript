@@ -8,12 +8,15 @@ let minWindow = function (s, t) {
   let targetMap = makeCountMap(t)
 
   let sl = s.length
-  let left = 0
-  let right = -1
-  let countMap = {}
-  let min = ""
+  let tl = t.length
+  let left = 0 // 左边界
+  let right = -1 // 右边界
+  let countMap = {} // 当前窗口子串中 每个字符出现的次数
+  let min = "" // 当前计算出的最小子串
 
-  while (left <= sl && right <= sl) {
+  // 循环终止条件是两者有一者超出边界
+  while (left <= sl - tl && right <= sl) {
+    // 和 targetMap 对比出现次数 确定是否满足条件
     let isValid = true
     Object.keys(targetMap).forEach((key) => {
       let targetCount = targetMap[key]
@@ -24,6 +27,7 @@ let minWindow = function (s, t) {
     })
 
     if (isValid) {
+      // 如果满足 记录当前的子串 并且左边界右移
       let currentValidLength = right - left + 1
       if (currentValidLength < min.length || min === "") {
         min = s.substring(left, right + 1)
@@ -32,6 +36,7 @@ let minWindow = function (s, t) {
       countMap[s[left]]--
       left++
     } else {
+      // 否则右边界右移
       addCountToMap(countMap, s[right + 1])
       right++
     }
@@ -57,4 +62,4 @@ function makeCountMap(strs) {
   return map
 }
 
-console.log(minWindow("ADOBECODEBANC", "ABC"))
+console.log(minWindow("aa", "a"))
