@@ -56,4 +56,4 @@ function partition(arr, left, right) {
 
 quickSort.sortName = "快速排序"
 
-module.exports = quickSort
+// module.exports = quickSort

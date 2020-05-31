@@ -21,4 +21,4 @@ function quickSort(arr) {
 
 quickSort.sortName = "快速排序（空间版）"
 
-module.exports = quickSort
+// module.exports = quickSort

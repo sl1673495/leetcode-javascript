@@ -43,7 +43,24 @@ function partition(arr, left, right) {
   // 三路 注意看注释里的区间
   let lt = left // arr[left + 1...lt] < v
   let gt = right + 1 // arr[gt...r] > v
-  let index = left + 1 // arr[lt + 1...index] === v
+  let index = left + 1 // arr[lt + 1...index) === v
+
+  while (index < gt) {
+    let num = arr[index]
+    if (num < pivot) {
+      swap(arr, index, lt + 1)
+      lt++
+      index++
+    } else if (num > pivot) {
+      swap(arr, index, gt - 1)
+      gt--
+    } else if (num === pivot) {
+      index++
+    }
+  }
+  swap(arr, left, lt)
+
+  return [lt - 1, gt]
 }
 
 quickSort.sortName = "快速排序（三路）"

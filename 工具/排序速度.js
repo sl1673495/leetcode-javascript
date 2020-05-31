@@ -87,5 +87,5 @@ glob("排序/*.js", (err, result) => {
     .filter(Boolean)
   sortTest(sortFunctions, () => getRandomArray(10000), "普通数组排序")
   sortTest(sortFunctions, () => getNearlyArray(10000), "近似数组排序")
-  sortTest(sortFunctions, () => getRangedArray(10000), "大量重复值元素排序")
+  sortTest(sortFunctions, () => getRangedArray(500), "大量重复值元素排序")
 })

@@ -26,4 +26,4 @@ function bubbleSort(arr) {
 
 bubbleSort.sortName = "冒泡排序"
 
-module.exports = bubbleSort
+// module.exports = bubbleSort

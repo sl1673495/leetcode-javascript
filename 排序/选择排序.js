@@ -15,4 +15,4 @@ function selectSort(arr) {
 
 selectSort.sortName = "选择排序"
 
-module.exports = selectSort
+// module.exports = selectSort
