@@ -6,9 +6,9 @@ let restoreIpAddresses = function (s) {
   let res = []
   let findPos = (start, prev, used) => {
     if (used === 3) {
-      // 点全部用光后 剩余字符的长度不能超过3 就是一个答案
       let rest = s.substr(start)
-      // 最后一位不能为0 且长度在 (0,3] 范围内
+      // 点全部用光后 剩余字符依然是一个合格的ip chunk 
+      // 就视为一个答案 放入数组
       if (isValidChunk(rest)) {
         res.push(prev.concat(rest).join("."))
       }
