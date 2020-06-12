@@ -17,7 +17,12 @@ let combine = function (n, k) {
       return
     }
 
+    // 还有 rest 个位置待填补
+    let rest = k - prev.length
     for (let i = start; i <= n; i++) {
+      if (n - i + 1 < rest) {
+        continue
+      }
       helper(i + 1, prev.concat(i))
     }
   }
