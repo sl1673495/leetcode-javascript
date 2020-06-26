@@ -16,71 +16,6 @@
 思路会记录在本仓库的 Issues 中，按照 label 进行分类。比如想查看 「DFS」 分类下的问题，那么选择标签进行筛选即可。
 
 ## 目录
-### 待复习
-
-[移除链表元素-203](https://api.github.com/repos/sl1673495/leetcode-javascript/issues/97)
-
-[搜索二维矩阵 II-240](https://api.github.com/repos/sl1673495/leetcode-javascript/issues/96)
-
-[单词拆分-139](https://api.github.com/repos/sl1673495/leetcode-javascript/issues/93)
-
-[最长回文子串-5](https://api.github.com/repos/sl1673495/leetcode-javascript/issues/91)
-
-[无重叠区间-435](https://api.github.com/repos/sl1673495/leetcode-javascript/issues/90)
-
-[目标和-494](https://api.github.com/repos/sl1673495/leetcode-javascript/issues/87)
-
-[最长公共子序列-1143](https://api.github.com/repos/sl1673495/leetcode-javascript/issues/85)
-
-[三角形最小路径和-120](https://api.github.com/repos/sl1673495/leetcode-javascript/issues/80)
-
-[N皇后-51](https://api.github.com/repos/sl1673495/leetcode-javascript/issues/78)
-
-[组合总和 II-40](https://api.github.com/repos/sl1673495/leetcode-javascript/issues/73)
-
-[组合总和-39](https://api.github.com/repos/sl1673495/leetcode-javascript/issues/72)
-
-[子集-78](https://api.github.com/repos/sl1673495/leetcode-javascript/issues/71)
-
-[全排列-46](https://api.github.com/repos/sl1673495/leetcode-javascript/issues/68)
-
-[复原IP地址-93](https://api.github.com/repos/sl1673495/leetcode-javascript/issues/66)
-
-[电话号码的字母组合-17](https://api.github.com/repos/sl1673495/leetcode-javascript/issues/65)
-
-[将有序数组转换为二叉搜索树](https://api.github.com/repos/sl1673495/leetcode-javascript/issues/63)
-
-[删除二叉搜索树中的节点-450](https://api.github.com/repos/sl1673495/leetcode-javascript/issues/62)
-
-[路径总和 III-437](https://api.github.com/repos/sl1673495/leetcode-javascript/issues/61)
-
-[路径总和-112](https://api.github.com/repos/sl1673495/leetcode-javascript/issues/57)
-
-[对称二叉树-101](https://api.github.com/repos/sl1673495/leetcode-javascript/issues/55)
-
-[两两交换链表中的节点-24](https://api.github.com/repos/sl1673495/leetcode-javascript/issues/51)
-
-[二叉树的前序遍历-144](https://api.github.com/repos/sl1673495/leetcode-javascript/issues/50)
-
-[找到字符串中所有字母异位词-438](https://api.github.com/repos/sl1673495/leetcode-javascript/issues/44)
-
-[最小覆盖子串-76](https://api.github.com/repos/sl1673495/leetcode-javascript/issues/43)
-
-[无重复字符的最长子串-3](https://api.github.com/repos/sl1673495/leetcode-javascript/issues/42)
-
-[长度最小的子数组-209](https://api.github.com/repos/sl1673495/leetcode-javascript/issues/36)
-
-[LRU 缓存机制-146](https://api.github.com/repos/sl1673495/leetcode-javascript/issues/35)
-
-[括号生成-22](https://api.github.com/repos/sl1673495/leetcode-javascript/issues/31)
-
-[合并两个有序数组-88](https://api.github.com/repos/sl1673495/leetcode-javascript/issues/29)
-
-[移动零-283](https://api.github.com/repos/sl1673495/leetcode-javascript/issues/26)
-
-[最大子序和-53](https://api.github.com/repos/sl1673495/leetcode-javascript/issues/17)
-
-[背包（01背包）](https://api.github.com/repos/sl1673495/leetcode-javascript/issues/15)
 
 ### 链表
 
@@ -370,32 +305,6 @@
 
 [实现 Trie (前缀树)-208](https://api.github.com/repos/sl1673495/leetcode-javascript/issues/14)
 
-### 复习 * 1
-
-[两数之和 II - 输入有序数组-167](https://api.github.com/repos/sl1673495/leetcode-javascript/issues/32)
-
-[Pow(x, n)-50](https://api.github.com/repos/sl1673495/leetcode-javascript/issues/25)
-
-[x 的平方根-69](https://api.github.com/repos/sl1673495/leetcode-javascript/issues/24)
-
-[爬楼梯-70](https://api.github.com/repos/sl1673495/leetcode-javascript/issues/22)
-
-[买卖股票的最佳时机 II-122](https://api.github.com/repos/sl1673495/leetcode-javascript/issues/20)
-
-[买卖股票的最佳时机-121](https://api.github.com/repos/sl1673495/leetcode-javascript/issues/19)
-
-[分割等和子集（01背包的变种）-416](https://api.github.com/repos/sl1673495/leetcode-javascript/issues/16)
-
-[实现 Trie (前缀树)-208](https://api.github.com/repos/sl1673495/leetcode-javascript/issues/14)
-
-[零钱兑换 II-518](https://api.github.com/repos/sl1673495/leetcode-javascript/issues/12)
-
-[打家劫舍 |||-337](https://api.github.com/repos/sl1673495/leetcode-javascript/issues/11)
-
-[删除排序数组中的重复项-26](https://api.github.com/repos/sl1673495/leetcode-javascript/issues/8)
-
-[被围绕的区域-130](https://api.github.com/repos/sl1673495/leetcode-javascript/issues/6)
-
 ### 二分查找
 
 [Pow(x, n)-50](https://api.github.com/repos/sl1673495/leetcode-javascript/issues/25)
@@ -403,12 +312,6 @@
 [x 的平方根-69](https://api.github.com/repos/sl1673495/leetcode-javascript/issues/24)
 
 [二分查找-704](https://api.github.com/repos/sl1673495/leetcode-javascript/issues/23)
-
-### 复习 * 3
-
-[乘积最大子数组-152](https://api.github.com/repos/sl1673495/leetcode-javascript/issues/18)
-
-[最大子序和-53](https://api.github.com/repos/sl1673495/leetcode-javascript/issues/17)
 
 ### 复习 * 2
 
