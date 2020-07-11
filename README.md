@@ -17,43 +17,100 @@
 
 ## 目录
 
-### 链表
 
-[移除链表元素-203](https://github.com/sl1673495/leetcode-javascript/issues/97)
+### 例题详解
 
-[两数相加-3](https://github.com/sl1673495/leetcode-javascript/issues/94)
-
-[两两交换链表中的节点-24](https://github.com/sl1673495/leetcode-javascript/issues/51)
-
-[删除链表的倒数第 N 个节点-19](https://github.com/sl1673495/leetcode-javascript/issues/46)
-
-[删除链表的节点-面试题 18](https://github.com/sl1673495/leetcode-javascript/issues/40)
-
-[反转链表 II-92](https://github.com/sl1673495/leetcode-javascript/issues/39)
-
-[反转链表 206](https://github.com/sl1673495/leetcode-javascript/issues/38)
-
-### 双指针
-
-[搜索二维矩阵 II-240](https://github.com/sl1673495/leetcode-javascript/issues/96)
-
-[判断子序列-392](https://github.com/sl1673495/leetcode-javascript/issues/89)
+[最接近的三数之和-16](https://github.com/sl1673495/leetcode-javascript/issues/115)
 
 [分发饼干-455](https://github.com/sl1673495/leetcode-javascript/issues/88)
 
-[验证回文串-125](https://github.com/sl1673495/leetcode-javascript/issues/33)
+[N皇后-51](https://github.com/sl1673495/leetcode-javascript/issues/78)
 
-[两数之和 II - 输入有序数组-167](https://github.com/sl1673495/leetcode-javascript/issues/32)
+[单词搜索-79](https://github.com/sl1673495/leetcode-javascript/issues/77)
 
-[合并两个有序数组-88](https://github.com/sl1673495/leetcode-javascript/issues/29)
+[二进制手表-401](https://github.com/sl1673495/leetcode-javascript/issues/76)
 
-[移动零-283](https://github.com/sl1673495/leetcode-javascript/issues/26)
+[电话号码的字母组合-17](https://github.com/sl1673495/leetcode-javascript/issues/65)
 
-[删除排序数组中的重复项-26](https://github.com/sl1673495/leetcode-javascript/issues/8)
+[二叉树的所有路径-257](https://github.com/sl1673495/leetcode-javascript/issues/59)
 
-[盛水最多的容器-11](https://github.com/sl1673495/leetcode-javascript/issues/3)
+[路径总和-112](https://github.com/sl1673495/leetcode-javascript/issues/57)
+
+[两两交换链表中的节点-24](https://github.com/sl1673495/leetcode-javascript/issues/51)
+
+[有效的括号-20](https://github.com/sl1673495/leetcode-javascript/issues/48)
+
+[无重复字符的最长子串-3](https://github.com/sl1673495/leetcode-javascript/issues/42)
+
+[二分查找-704](https://github.com/sl1673495/leetcode-javascript/issues/23)
+
+### 递归与回溯
+
+[跳水板-面试题 16.11 ](https://github.com/sl1673495/leetcode-javascript/issues/118)
+
+[顺次数-1291](https://github.com/sl1673495/leetcode-javascript/issues/116)
+
+[螺旋矩阵 II-59](https://github.com/sl1673495/leetcode-javascript/issues/113)
+
+[螺旋矩阵-54](https://github.com/sl1673495/leetcode-javascript/issues/112)
+
+[矩阵置零-73](https://github.com/sl1673495/leetcode-javascript/issues/111)
+
+[不同路径 III-980](https://github.com/sl1673495/leetcode-javascript/issues/107)
+
+[字母大小写全排列-784](https://github.com/sl1673495/leetcode-javascript/issues/106)
+
+[黄金矿工-1219](https://github.com/sl1673495/leetcode-javascript/issues/105)
+
+[有重复字符串的排列组合-面试题 08.08](https://github.com/sl1673495/leetcode-javascript/issues/104)
+
+[单词搜索 II-212](https://github.com/sl1673495/leetcode-javascript/issues/92)
+
+[解数独-37](https://github.com/sl1673495/leetcode-javascript/issues/79)
+
+[N皇后-51](https://github.com/sl1673495/leetcode-javascript/issues/78)
+
+[单词搜索-79](https://github.com/sl1673495/leetcode-javascript/issues/77)
+
+[二进制手表-401](https://github.com/sl1673495/leetcode-javascript/issues/76)
+
+[子集 II-90](https://github.com/sl1673495/leetcode-javascript/issues/75)
+
+[ 组合总和 III-216](https://github.com/sl1673495/leetcode-javascript/issues/74)
+
+[组合总和 II-40](https://github.com/sl1673495/leetcode-javascript/issues/73)
+
+[组合总和-39](https://github.com/sl1673495/leetcode-javascript/issues/72)
+
+[子集-78](https://github.com/sl1673495/leetcode-javascript/issues/71)
+
+[组合-77](https://github.com/sl1673495/leetcode-javascript/issues/70)
+
+[全排列 II-47](https://github.com/sl1673495/leetcode-javascript/issues/69)
+
+[全排列-46](https://github.com/sl1673495/leetcode-javascript/issues/68)
+
+[分割回文串-131](https://github.com/sl1673495/leetcode-javascript/issues/67)
+
+[复原IP地址-93](https://github.com/sl1673495/leetcode-javascript/issues/66)
+
+[电话号码的字母组合-17](https://github.com/sl1673495/leetcode-javascript/issues/65)
+
+[括号生成-22](https://github.com/sl1673495/leetcode-javascript/issues/31)
 
 ### 动态规划
+
+[最长的斐波那契子序列的长度-873](https://github.com/sl1673495/leetcode-javascript/issues/117)
+
+[最长重复子数组-718](https://github.com/sl1673495/leetcode-javascript/issues/114)
+
+[下降路径最小和-931](https://github.com/sl1673495/leetcode-javascript/issues/108)
+
+[最大正方形-221](https://github.com/sl1673495/leetcode-javascript/issues/101)
+
+[恢复空格-面试题 17.13](https://github.com/sl1673495/leetcode-javascript/issues/100)
+
+[最长单词-面试题 17.15](https://github.com/sl1673495/leetcode-javascript/issues/99)
 
 [单词拆分 II-140](https://github.com/sl1673495/leetcode-javascript/issues/95)
 
@@ -87,59 +144,81 @@
 
 [买卖股票的最佳时机-121](https://github.com/sl1673495/leetcode-javascript/issues/19)
 
-[乘积最大子数组-152](https://github.com/sl1673495/leetcode-javascript/issues/18)
+### 双指针
 
-[最大子序和-53](https://github.com/sl1673495/leetcode-javascript/issues/17)
+[最接近的三数之和-16](https://github.com/sl1673495/leetcode-javascript/issues/115)
 
-[分割等和子集（01 背包的变种）-416](https://github.com/sl1673495/leetcode-javascript/issues/16)
+[通过删除字母匹配到字典里最长单词-524](https://github.com/sl1673495/leetcode-javascript/issues/98)
 
-[背包（01 背包）](https://github.com/sl1673495/leetcode-javascript/issues/15)
+[搜索二维矩阵 II-240](https://github.com/sl1673495/leetcode-javascript/issues/96)
 
-[使用最小花费爬楼梯-746](https://github.com/sl1673495/leetcode-javascript/issues/13)
+[判断子序列-392](https://github.com/sl1673495/leetcode-javascript/issues/89)
 
-[零钱兑换 II-518](https://github.com/sl1673495/leetcode-javascript/issues/12)
+[分发饼干-455](https://github.com/sl1673495/leetcode-javascript/issues/88)
 
-[打家劫舍 - 198](https://github.com/sl1673495/leetcode-javascript/issues/10)
+[验证回文串-125](https://github.com/sl1673495/leetcode-javascript/issues/33)
 
-[完全平方数-279](https://github.com/sl1673495/leetcode-javascript/issues/9)
+[两数之和 II - 输入有序数组-167](https://github.com/sl1673495/leetcode-javascript/issues/32)
 
-[整数拆分-343](https://github.com/sl1673495/leetcode-javascript/issues/7)
+[合并两个有序数组-88](https://github.com/sl1673495/leetcode-javascript/issues/29)
 
-[斐波那契数-509](https://github.com/sl1673495/leetcode-javascript/issues/2)
+[移动零-283](https://github.com/sl1673495/leetcode-javascript/issues/26)
 
-### 递归与回溯
+### 前缀和
 
-[单词搜索 II-212](https://github.com/sl1673495/leetcode-javascript/issues/92)
+[和为K的子数组-560](https://github.com/sl1673495/leetcode-javascript/issues/110)
 
-[解数独-37](https://github.com/sl1673495/leetcode-javascript/issues/79)
+### 位运算
 
-[N 皇后-51](https://github.com/sl1673495/leetcode-javascript/issues/78)
+[找不同-389](https://github.com/sl1673495/leetcode-javascript/issues/109)
 
-[单词搜索-79](https://github.com/sl1673495/leetcode-javascript/issues/77)
+### 查找表
 
-[二进制手表-401](https://github.com/sl1673495/leetcode-javascript/issues/76)
+[找不同-389](https://github.com/sl1673495/leetcode-javascript/issues/109)
 
-[子集 II-90](https://github.com/sl1673495/leetcode-javascript/issues/75)
+[两个数组的交集 II-350](https://github.com/sl1673495/leetcode-javascript/issues/37)
 
-[ 组合总和 III-216](https://github.com/sl1673495/leetcode-javascript/issues/74)
+### BFS
 
-[组合总和 II-40](https://github.com/sl1673495/leetcode-javascript/issues/73)
+[跳跃游戏 IV-1345](https://github.com/sl1673495/leetcode-javascript/issues/103)
 
-[组合总和-39](https://github.com/sl1673495/leetcode-javascript/issues/72)
+[跳跃游戏 III-1306](https://github.com/sl1673495/leetcode-javascript/issues/102)
 
-[子集-78](https://github.com/sl1673495/leetcode-javascript/issues/71)
+[二叉树的最小深度-111](https://github.com/sl1673495/leetcode-javascript/issues/54)
 
-[组合-77](https://github.com/sl1673495/leetcode-javascript/issues/70)
+[二叉树的最大深度-104](https://github.com/sl1673495/leetcode-javascript/issues/53)
 
-[全排列 II-47](https://github.com/sl1673495/leetcode-javascript/issues/69)
+[二叉树的右视图-199](https://github.com/sl1673495/leetcode-javascript/issues/52)
 
-[全排列-46](https://github.com/sl1673495/leetcode-javascript/issues/68)
+[二叉树的层序遍历-102](https://github.com/sl1673495/leetcode-javascript/issues/30)
 
-[分割回文串-131](https://github.com/sl1673495/leetcode-javascript/issues/67)
+[相同的树-100](https://github.com/sl1673495/leetcode-javascript/issues/21)
 
-[复原 IP 地址-93](https://github.com/sl1673495/leetcode-javascript/issues/66)
+### 排序
 
-[电话号码的字母组合-17](https://github.com/sl1673495/leetcode-javascript/issues/65)
+[最长单词-面试题 17.15](https://github.com/sl1673495/leetcode-javascript/issues/99)
+
+[通过删除字母匹配到字典里最长单词-524](https://github.com/sl1673495/leetcode-javascript/issues/98)
+
+[快速排序](https://github.com/sl1673495/leetcode-javascript/issues/41)
+
+[颜色分类-75](https://github.com/sl1673495/leetcode-javascript/issues/28)
+
+### 链表
+
+[移除链表元素-203](https://github.com/sl1673495/leetcode-javascript/issues/97)
+
+[两数相加-3](https://github.com/sl1673495/leetcode-javascript/issues/94)
+
+[两两交换链表中的节点-24](https://github.com/sl1673495/leetcode-javascript/issues/51)
+
+[删除链表的倒数第N个节点-19](https://github.com/sl1673495/leetcode-javascript/issues/46)
+
+[删除链表的节点-面试题18](https://github.com/sl1673495/leetcode-javascript/issues/40)
+
+[反转链表II-92](https://github.com/sl1673495/leetcode-javascript/issues/39)
+
+[反转链表 206](https://github.com/sl1673495/leetcode-javascript/issues/38)
 
 ### 贪心算法
 
@@ -148,34 +227,6 @@
 [分发饼干-455](https://github.com/sl1673495/leetcode-javascript/issues/88)
 
 [买卖股票的最佳时机 II-122](https://github.com/sl1673495/leetcode-javascript/issues/20)
-
-### 例题详解
-
-[分发饼干-455](https://github.com/sl1673495/leetcode-javascript/issues/88)
-
-[N 皇后-51](https://github.com/sl1673495/leetcode-javascript/issues/78)
-
-[单词搜索-79](https://github.com/sl1673495/leetcode-javascript/issues/77)
-
-[二进制手表-401](https://github.com/sl1673495/leetcode-javascript/issues/76)
-
-[电话号码的字母组合-17](https://github.com/sl1673495/leetcode-javascript/issues/65)
-
-[二叉树的所有路径-257](https://github.com/sl1673495/leetcode-javascript/issues/59)
-
-[路径总和-112](https://github.com/sl1673495/leetcode-javascript/issues/57)
-
-[两两交换链表中的节点-24](https://github.com/sl1673495/leetcode-javascript/issues/51)
-
-[无重复字符的最长子串-3](https://github.com/sl1673495/leetcode-javascript/issues/42)
-
-[二分查找-704](https://github.com/sl1673495/leetcode-javascript/issues/23)
-
-[背包（01 背包）](https://github.com/sl1673495/leetcode-javascript/issues/15)
-
-[盛水最多的容器-11](https://github.com/sl1673495/leetcode-javascript/issues/3)
-
-[斐波那契数-509](https://github.com/sl1673495/leetcode-javascript/issues/2)
 
 ### DFS
 
@@ -203,17 +254,11 @@
 
 [二叉树的最大深度-104](https://github.com/sl1673495/leetcode-javascript/issues/53)
 
-[二叉树的层序遍历](https://github.com/sl1673495/leetcode-javascript/issues/30)
+[二叉树的层序遍历-102](https://github.com/sl1673495/leetcode-javascript/issues/30)
 
 [路径总和 II-113](https://github.com/sl1673495/leetcode-javascript/issues/27)
 
 [相同的树-100](https://github.com/sl1673495/leetcode-javascript/issues/21)
-
-[打家劫舍 |||-337](https://github.com/sl1673495/leetcode-javascript/issues/11)
-
-[被围绕的区域-130](https://github.com/sl1673495/leetcode-javascript/issues/6)
-
-[岛屿的最大面积-695](https://github.com/sl1673495/leetcode-javascript/issues/5)
 
 ### 二叉树
 
@@ -245,25 +290,11 @@
 
 [二叉树的前序遍历-144](https://github.com/sl1673495/leetcode-javascript/issues/50)
 
-[二叉树的层序遍历](https://github.com/sl1673495/leetcode-javascript/issues/30)
+[二叉树的层序遍历-102](https://github.com/sl1673495/leetcode-javascript/issues/30)
 
 [路径总和 II-113](https://github.com/sl1673495/leetcode-javascript/issues/27)
 
 [相同的树-100](https://github.com/sl1673495/leetcode-javascript/issues/21)
-
-### BFS
-
-[二叉树的最小深度-111](https://github.com/sl1673495/leetcode-javascript/issues/54)
-
-[二叉树的最大深度-104](https://github.com/sl1673495/leetcode-javascript/issues/53)
-
-[二叉树的右视图-199](https://github.com/sl1673495/leetcode-javascript/issues/52)
-
-[二叉树的层序遍历](https://github.com/sl1673495/leetcode-javascript/issues/30)
-
-[相同的树-100](https://github.com/sl1673495/leetcode-javascript/issues/21)
-
-[在每个树行中找最大值-515](https://github.com/sl1673495/leetcode-javascript/issues/4)
 
 ### 栈和队列
 
@@ -289,21 +320,9 @@
 
 [长度最小的子数组-209](https://github.com/sl1673495/leetcode-javascript/issues/36)
 
-### 排序
-
-[快速排序](https://github.com/sl1673495/leetcode-javascript/issues/41)
-
-[颜色分类-75](https://github.com/sl1673495/leetcode-javascript/issues/28)
-
-### 查找表
-
-[两个数组的交集 II-350](https://github.com/sl1673495/leetcode-javascript/issues/37)
-
 ### 数据结构
 
 [LRU 缓存机制-146](https://github.com/sl1673495/leetcode-javascript/issues/35)
-
-[实现 Trie (前缀树)-208](https://github.com/sl1673495/leetcode-javascript/issues/14)
 
 ### 二分查找
 
