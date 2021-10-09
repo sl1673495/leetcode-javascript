@@ -8,7 +8,7 @@
 > 力扣的题解记录（JavaScript）
 
 ## 关于我
-大家好，我是 ssh，现在在字节跳动的 Web Infra 担任前端工程师。
+大家好，我是 ssh，现在在字节跳动的 Web Infra 担任前端工程师，微信：**[sshsunlight](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/017d568dc1d14cd883cc3238350a39ec~tplv-k3u1fbpfcp-watermark.image)**，欢迎找我交个朋友。
 
 我会在公众号「前端从进阶到入院」每日更新精心挑选的技术文章（标准就是我自己看了也会有收获），欢迎大家一起成长。
 
